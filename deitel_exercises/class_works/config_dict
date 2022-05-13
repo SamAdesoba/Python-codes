@@ -1,0 +1,12 @@
+{
+    "name":"Samson",
+    "age":30,
+    "1":"Birthday",
+    "wives":[
+        1,
+        2,
+        3,
+        4
+    ],
+    "boolean":true
+}

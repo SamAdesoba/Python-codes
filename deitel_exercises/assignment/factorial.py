@@ -14,6 +14,14 @@ user_input = int(input("Enter the number : "))
 print(sum)
 print()
 total = 0
-for i in range(1, (user_input+1)):
+for i in range(1, (user_input + 1)):
     total += i
 print(total)
+
+# recursion can be explained with factorial, it means, a function calling another function
+
+
+def fact(n):
+    if n <= 1:
+        return 1
+    return n * fact(n - 1)
