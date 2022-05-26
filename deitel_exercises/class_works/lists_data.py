@@ -26,16 +26,18 @@ print(num)
 print()
 num = [1, 2, 3, 4, 5, 6, 'q', 'a', "string"]
 num.extend(["ade", "sam"])
-print(num)
-print()
-print(num.insert([3], 8))
-print(num.pop(8))
-fruits = ['banana', 'apple', 'cucumber', 'cucumber']
-fruits.reverse()
-print(fruits)
-fruits.sort()
-print(fruits)
-print()
+print(num.index(5))
+print(num[8])
+# print(num)
+# print()
+# # print(num.insert([3], 8))
+# print(num.pop(8))
+# fruits = ['banana', 'apple', 'cucumber', 'cucumber']
+# fruits.reverse()
+# print(fruits)
+# fruits.sort()
+# print(fruits)
+# print()
 
 
 
