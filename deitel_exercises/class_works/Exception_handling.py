@@ -18,7 +18,7 @@
 try:
     print("Life is good")
     # print(1/0)
-    print([1,2,3][4])
+    print([1, 2, 3][4])
     print("After life")
 except ZeroDivisionError as e:
     print("ZeroError", e)
@@ -28,3 +28,10 @@ else:
     print("ELse I run only when there's no error")
 finally:
     print("Finally, I run everytime")
+
+
+# How to create your own exception Handling
+class YourMoneyNoReachedError(Exception):
+
+    def __init__(self, message: "") -> None:
+        super().__init__(message)

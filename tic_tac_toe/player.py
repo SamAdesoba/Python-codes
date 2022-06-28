@@ -13,4 +13,9 @@ class Player:
 
 
 if __name__ == '__main__':
-    player1 = Player.name
+    player1 = Player("Samson", "# ")
+
+
+    print(player1.name)
+
+
