@@ -35,10 +35,27 @@ def max_sub_array(lst, k):
         total = total - lst[i] + lst[i + k]
         if total > maximum:
             maximum = total
-        lst1 = lst[i: i+k]
+        lst1 = lst[i: i + k]
         print(lst1)
-    print(lst[k+1:])
+    print(lst[k + 1:])
     return maximum
 
 
-print(max_sub_array(a, 4))
+# print(max_sub_array(a, 4))
+
+
+def rearrange_array(lst):
+    lst1 = []
+    start = 0
+    end = len(lst) - 1
+    while start <= end:
+        lst1.append(lst[end])
+        lst1.append(lst[start])
+        start += 1
+        end -= 1
+    if len(lst) != len(lst1):
+        lst1.pop(-1)
+    return lst1
+
+
+print(rearrange_array([1, 2, 3, 4, 9]))
