@@ -1,0 +1,3 @@
+{'Name': 'Adesoba', 'age': 30}
+{'Name': 'Samson', 'age': 100}
+30
