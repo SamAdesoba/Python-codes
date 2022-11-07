@@ -1,4 +1,6 @@
 s = "abcadeccdccd"
+
+
 # itr = iter(s)
 # S_array = []
 # for char in s:
@@ -42,3 +44,14 @@ def word_concatenation(word1, word2):
 w1 = ["ab", "c"]
 w2 = ["abc"]
 print(word_concatenation(w1, w2))
+
+# def romanToInt(self, s: str) -> int:
+#     symbols = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+#     for i in range(0, len(s)):
+#         if s[i] == symbols.keys():
+#             print(symbols.values())
+#     return 0
+#
+#
+# p = "XI"
+# print(romanToInt(p))
